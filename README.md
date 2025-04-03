@@ -9,9 +9,8 @@
 | **Category**  | **Skills & Level** |
 |--------------|------------------|
 | **Frontend**  | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-black?logo=next.js) |
-| **Backend**   | ![Node.js](https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js) ![Express](https://img.shields.io/badge/Express-Beginner-lightgrey?logo=express) |
-| **Database**  | ![MySQL](https://img.shields.io/badge/MySQL-Basic-orange?logo=mysql) ![MongoDB](https://img.shields.io/badge/MongoDB-Basic-green?logo=mongodb) |
-| **Programming Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-red?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) |
+| **Backend**   | ![Node.js](https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js) ![Flask](https://img.shields.io/badge/Flask-Beginner-white?logo=flask) |
+| **Programming Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-red?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) ![C++](https://img.shields.io/badge/C++-Basic-purple?logo=c%2B%2B) |
 | **Tools**     | ![Git](https://img.shields.io/badge/Git-Experienced-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Experienced-black?logo=github) |
 
 ---
@@ -31,5 +30,4 @@
 
 ### 📫 Connect with Me
 📧 Email: your-email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/qlsl1198)  
 📷 [Instagram](https://instagram.com/s_.binnie)  
