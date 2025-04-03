@@ -22,9 +22,10 @@
 
 ---
 
-### 🚀 Featured Projects
-🔗 **[Project 1](https://github.com/qlsl1198/project1)** - Description of project 1  
-🔗 **[Project 2](https://github.com/qlsl1198/project2)** - Description of project 2  
+### 🚀 Projects I've Worked On
+🔗 **[University Course Notes Organizer](https://github.com/qlsl1198/5715955_subin)** 
+🔗 **[Scholarship Counseling Chatbot](https://github.com/qlsl1198/project1)**
+
 
 ---
 
