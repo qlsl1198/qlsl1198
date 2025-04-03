@@ -1,4 +1,3 @@
-### 👋 Hi, I'm 김수빈!
 💻 **Computer Science student at Keimyung University**  
 🚀 Passionate about web development and learning React by building projects.  
 🎯 Currently working on a **team project** with 4 members (2 frontend & 2 backend) related to our university.  
@@ -16,9 +15,9 @@
 ---
 
 ### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=su-bin&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=su-bin&layout=compact&theme=tokyonight)  
-![GitHub Streak](https://streak-stats.demolab.com/?user=su-bin&theme=tokyonight)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight)  
+![GitHub Streak](https://streak-stats.demolab.com/?user=qlsl1198&theme=tokyonight)  
 
 ---
 
