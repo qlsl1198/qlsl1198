@@ -1,3 +1,4 @@
+### 👋 Hi, I'm Kim subin!
 💻 **Computer Science student at Keimyung University**  
 🚀 Passionate about web development and learning React by building projects.  
 🎯 Currently working on a **team project** with 4 members (2 frontend & 2 backend) related to our university.  
