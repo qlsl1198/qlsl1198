@@ -9,7 +9,7 @@
 | **Category**  | **Skills & Level** |
 |--------------|------------------|
 | **Frontend**  | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-black?logo=next.js) |
-| **Backend**   | ![Node.js](https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js) ![Flask](https://img.shields.io/badge/Flask-Beginner-white?logo=flask) |
+| **Backend**   | ![Flask](https://img.shields.io/badge/Flask-Intermediate-white?logo=flask)! [Node.js](https://img.shields.io/badge/Node.js-Beginner-green?logo=node.js)  |
 | **Programming Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-red?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) ![C++](https://img.shields.io/badge/C++-Basic-purple?logo=c%2B%2B) |
 | **Tools**     | ![Git](https://img.shields.io/badge/Git-Experienced-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Experienced-black?logo=github) |
 
