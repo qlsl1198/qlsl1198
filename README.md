@@ -1,4 +1,4 @@
-### 👋 Hi, I'm Kim subin!
+### 👋 Hi, I'm Kim Subin!
 💻 **Computer Science student at Keimyung University**  
 🚀 Passionate about web development and learning React by building projects.  
 🎯 Currently working on a **team project** with 4 members (2 frontend & 2 backend) related to our university.  
@@ -11,6 +11,7 @@
 | **Frontend**  | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-black?logo=next.js) |
 | **Backend**   | ![Node.js](https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js) ![Express](https://img.shields.io/badge/Express-Beginner-lightgrey?logo=express) |
 | **Database**  | ![MySQL](https://img.shields.io/badge/MySQL-Basic-orange?logo=mysql) ![MongoDB](https://img.shields.io/badge/MongoDB-Basic-green?logo=mongodb) |
+| **Programming Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-red?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) |
 | **Tools**     | ![Git](https://img.shields.io/badge/Git-Experienced-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Experienced-black?logo=github) |
 
 ---
@@ -23,11 +24,12 @@
 ---
 
 ### 🚀 Featured Projects
-🔗 **[Project 1](https://github.com/su-bin/project1)** - Description of project 1  
-🔗 **[Project 2](https://github.com/su-bin/project2)** - Description of project 2  
+🔗 **[Project 1](https://github.com/qlsl1198/project1)** - Description of project 1  
+🔗 **[Project 2](https://github.com/qlsl1198/project2)** - Description of project 2  
 
 ---
 
 ### 📫 Connect with Me
-📧 Email: qlsl1198@gmail.com 
-🔗 [LinkedIn](https://linkedin.com/in/su-bin)  
+📧 Email: your-email@example.com  
+🔗 [LinkedIn](https://linkedin.com/in/qlsl1198)  
+📷 [Instagram](https://instagram.com/s_.binnie)  
