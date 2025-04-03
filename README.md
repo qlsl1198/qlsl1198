@@ -29,5 +29,5 @@
 ---
 
 ### 📫 Connect with Me
-📧 Email: your-email@example.com  
+📧 Email: qlsl1198@gmail.com  
 📷 [Instagram](https://instagram.com/s_.binnie)  
