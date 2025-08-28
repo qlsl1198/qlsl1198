@@ -1,7 +1,7 @@
 ### 👋 Hi, I'm Kim Subin!
 💻 **Computer Science student at Keimyung University**  
-🚀 Passionate about web development and learning React by building projects.  
-🎯 Currently working on a **team project** with 4 members (2 frontend & 2 backend) related to our university.  
+🌱 Aspiring **Full-Stack Developer**, passionate about building impactful web applications.  
+🚀 Continuously learning and exploring modern technologies to improve my development skills.  
 
 ---
 
@@ -9,7 +9,7 @@
 | **Category**  | **Skills & Level** |
 |--------------|------------------|
 | **Frontend**  | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-lightgrey?logo=next.js) ![Flutter](https://img.shields.io/badge/Flutter-Beginner-lightred?logo=Flutter) |
-| **Backend**   | ![Flask](https://img.shields.io/badge/Flask-Intermediate-lightblue?logo=flask) ![Node.js](https://img.shields.io/badge/Node.js-Beginner-lightgreen?logo=node.js)  |
+| **Backend**   | ![Spring Boot](https://img.shields.io/badge/SpringBoot-Intermediate-green?logo=springboot) ![Flask](https://img.shields.io/badge/Flask-Intermediate-lightblue?logo=flask) ![Node.js](https://img.shields.io/badge/Node.js-Beginner-lightgreen?logo=node.js) |
 | **Programming Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-lightblue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-orange?logo=Java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) ![C++](https://img.shields.io/badge/C++-Basic-purple?logo=c%2B%2B) |
 | **Tools**     | ![Git](https://img.shields.io/badge/Git-Intermediate-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Intermediate-black?logo=github) |
 
