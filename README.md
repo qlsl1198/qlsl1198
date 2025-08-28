@@ -24,5 +24,5 @@
 
 ### 📫 Connect with Me
 📧 Email: qlsl1198@gmail.com  
-💼 [LinkedIn](https://www.linkedin.com/in/)  
+💼 [LinkedIn]([https://www.linkedin.com/in/](https://www.linkedin.com/in/%EC%88%98%EB%B9%88-%EA%B9%80-a55a44372/))  
 📷 [Instagram](https://instagram.com/s_.binnie)  
