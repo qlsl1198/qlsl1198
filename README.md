@@ -15,6 +15,12 @@
 
 ---
 
+### 🌐 Portfolio
+Check out my portfolio website for projects and more details:  
+👉 **[Visit My Portfolio](https://popol-seven.vercel.app/)**  
+
+---
+
 ### 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight)  
