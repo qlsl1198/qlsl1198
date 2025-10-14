@@ -1,6 +1,6 @@
 <!-- 🌈 상단 배너 -->
 <div align="center">
-  
+
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=230&section=header&text=👋%20Hi,%20I'm%20Kim%20Subin!&fontSize=40&fontAlignY=40&desc=AI%20%7C%20Full-Stack%20Developer%20%7C%20Computer%20Science%20Student&descAlignY=65&descAlign=50)
 
 </div>
@@ -20,10 +20,10 @@
 
 | Category | Skills |
 |-----------|--------|
-| **Frontend** | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-lightgrey?logo=next.js) ![Flutter](https://img.shields.io/badge/Flutter-Beginner-blue?logo=flutter) |
-| **Backend** | ![Spring Boot](https://img.shields.io/badge/SpringBoot-Intermediate-green?logo=springboot) ![Flask](https://img.shields.io/badge/Flask-Intermediate-lightblue?logo=flask) ![Node.js](https://img.shields.io/badge/Node.js-Beginner-lightgreen?logo=node.js) |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-orange?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) ![C++](https://img.shields.io/badge/C++-Basic-purple?logo=c%2B%2B) |
-| **Tools & Cloud** | ![Git](https://img.shields.io/badge/Git-Intermediate-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Intermediate-black?logo=github) ![Postman](https://img.shields.io/badge/Postman-Intermediate-orange?logo=postman) ![MySQL](https://img.shields.io/badge/MySQL-Intermediate-blue?logo=mysql) ![AWS](https://img.shields.io/badge/AWS-Beginner-orange?logo=amazonaws) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-Intermediate-61DAFB?logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-000000?logo=nextdotjs&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-Beginner-02569B?logo=flutter&logoColor=white) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/SpringBoot-Intermediate-6DB33F?logo=springboot&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-Intermediate-000000?logo=flask&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-Beginner-339933?logo=nodedotjs&logoColor=white) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-3776AB?logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-Intermediate-007396?logo=java&logoColor=white) ![C](https://img.shields.io/badge/C-Basic-A8B9CC?logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-Basic-00599C?logo=cplusplus&logoColor=white) |
+| **Tools & Cloud** | ![Git](https://img.shields.io/badge/Git-Intermediate-F05032?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-Intermediate-181717?logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-Intermediate-FF6C37?logo=postman&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-Intermediate-4479A1?logo=mysql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-Beginner-232F3E?logo=amazonaws&logoColor=white) |
 
 ---
 
@@ -42,17 +42,19 @@
 <table>
 <tr>
 <td align="center">
-  
+
 ![Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 </td>
 <td align="center">
-  
+
 ![Streak](https://streak-stats.demolab.com?user=qlsl1198&theme=tokyonight&hide_border=true&date_format=%5BY%20%5DM%20j)
 
 </td>
-<td align="center">
-  
+</tr>
+<tr>
+<td colspan="2" align="center">
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true)
 
 </td>
@@ -101,7 +103,7 @@
 
 <div align="center">
 
-![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/qlsl1198&count_bg=%2368D391&title_bg=%230D1117&icon=github.svg&icon_color=%23FFFFFF&title=Profile+Views&edge_flat=false)
+![Profile Views](https://komarev.com/ghpvc/?username=qlsl1198&style=for-the-badge&color=0E75B6&label=PROFILE+VIEWS)
 
 </div>
 
