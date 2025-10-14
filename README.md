@@ -54,7 +54,7 @@
 <div align="center">
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=qlsl1198&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=70a5fd&line=38bdae&point=ffffff)  
-![Snake Animation](https://raw.githubusercontent.com/qlsl1198/qlsl1198/output/github-contribution-grid-snake.svg)
+![Snake Animation](https://raw.githubusercontent.com/qlsl1198/qlsl1198/output/snake.svg)
 
 </div>
 
