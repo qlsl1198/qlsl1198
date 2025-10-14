@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}  # 기존 GITHUB_TOKEN 대신 PAT 사용
+          github_token: ${{ secrets.GH_PAT }}  # 생성한 Personal Access Token
           publish_dir: ./dist
           publish_branch: output
           force_orphan: true
