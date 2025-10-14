@@ -23,11 +23,11 @@ jobs:
           github_user_name: qlsl1198   # <-- 본인 GitHub 아이디
           outputs: dist/snake.svg
 
-      # 3️⃣ Deploy to output branch
+      # 3️⃣ Deploy to output branch using PAT
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}  # 기존 GITHUB_TOKEN 대신 PAT 사용
           publish_dir: ./dist
           publish_branch: output
           force_orphan: true
