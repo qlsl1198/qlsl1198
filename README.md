@@ -1,96 +1,88 @@
-# 👋 Hi, I'm 김수빈 (Subin Kim)
-
-🌱 **Computer Engineering Student @ Keimyung University**  
-💡 Passionate about **AI-driven full-stack development** and building services that make an impact.  
-🚀 Always exploring new tools, improving scalability, and creating meaningful user experiences.
-
----
-
-## 🧠 Tech Stack
-
-**Languages:** Java, Python, JavaScript, TypeScript  
-**Frameworks:** Spring Boot, React, Node.js, React Native, Flutter Web  
-**Databases:** MySQL, H2  
-**AI / ML:** OpenAI API, NLP, AI Recommendation Systems  
-**Cloud & Tools:** AWS S3, JWT, REST API, Expo, Vercel, GitHub, Postman  
-
----
-
-## ✨ Featured Projects
-
-### 🏠 Lucky B-Key  
-> **AI 기반 쉼터 관리 및 추천 플랫폼 (Team Project)**  
-AI 추천, QR 체크인, 리뷰 관리, AWS S3 업로드 등 복잡한 백엔드 시스템을 구축했습니다.  
-쉼터 이용자와 관리자가 효율적으로 소통할 수 있는 구조를 설계했습니다.
-
-🧩 `Spring Boot` `Java` `JWT` `AWS S3` `AI Algorithm` `MySQL`  
-🔗 [Code](https://github.com/) ｜ 🌐 [Live Demo](https://github.com/)
-
----
-
-### 🎓 KMU 장학 챗봇  
-> **계명대학교 학생을 위한 장학금 정보 챗봇 서비스**  
-자연어로 질문 시 AI가 장학금 정보를 제공하는 웹 챗봇으로, Flask와 OpenAI GPT API를 활용했습니다.  
-학내 시스템과 연계 가능한 구조로 설계되어 있습니다.
-
-💬 `React` `Node.js` `OpenAI API` `ChatGPT` `JavaScript`  
-🔗 [Code](https://github.com/) ｜ 🌐 [Live Demo](https://github.com/)
-
----
-
-### 🌙 Dream Interpreter App  
-> **AI 기반 꿈 해석 및 기억 복원 모바일 앱**  
-OpenAI GPT 기반으로 꿈 내용을 분석하고, 꿈 패턴 통계를 시각화하는 개인화된 해석 서비스를 제공합니다.
-
-💤 `React Native` `TypeScript` `OpenAI GPT API` `Expo` `AsyncStorage`  
-🔗 [Code](https://github.com/) ｜ 🌐 [Live Demo](https://github.com/)
-
----
-
-## 📊 My GitHub Stats
-
+<!-- 🌈 상단 배너 -->
 <div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true)
+  
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=230&section=header&text=👋%20Hi,%20I'm%20Kim%20Subin!&fontSize=40&fontAlignY=40&desc=AI%20%7C%20Full-Stack%20Developer%20%7C%20Computer%20Science%20Student&descAlignY=65&descAlign=50)
 
 </div>
 
 ---
 
-## 🧩 Activity & Highlights
+### 💡 About Me  
+
+> 🎓 **Computer Science Student @ Keimyung University**  
+> 💻 Aspiring **Full-Stack Developer** specializing in **AI-integrated web systems**  
+> 🌱 Passionate about transforming creative ideas into scalable digital services  
+> 🚀 Continuously learning modern technologies to craft seamless user experiences  
+
+---
+
+### 🧠 Tech Stack  
+
+| Category | Skills |
+|-----------|--------|
+| **Frontend** | ![React](https://img.shields.io/badge/React-Intermediate-blue?logo=react) ![Next.js](https://img.shields.io/badge/Next.js-Beginner-lightgrey?logo=next.js) ![Flutter](https://img.shields.io/badge/Flutter-Beginner-blue?logo=flutter) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/SpringBoot-Intermediate-green?logo=springboot) ![Flask](https://img.shields.io/badge/Flask-Intermediate-lightblue?logo=flask) ![Node.js](https://img.shields.io/badge/Node.js-Beginner-lightgreen?logo=node.js) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-Intermediate-blue?logo=python) ![Java](https://img.shields.io/badge/Java-Intermediate-orange?logo=java) ![C](https://img.shields.io/badge/C-Basic-darkblue?logo=c) ![C++](https://img.shields.io/badge/C++-Basic-purple?logo=c%2B%2B) |
+| **Tools & Cloud** | ![Git](https://img.shields.io/badge/Git-Intermediate-red?logo=git) ![GitHub](https://img.shields.io/badge/GitHub-Intermediate-black?logo=github) ![Postman](https://img.shields.io/badge/Postman-Intermediate-orange?logo=postman) ![MySQL](https://img.shields.io/badge/MySQL-Intermediate-blue?logo=mysql) ![AWS](https://img.shields.io/badge/AWS-Beginner-orange?logo=amazonaws) |
+
+---
+
+### ⚙️ What I’m Working On  
+
+- 🧩 **Capstone Project** — Workspace-based collaboration platform with real-time chat  
+- 🧠 **AI-Driven Systems** — Integrating GPT and recommendation models into web services  
+- ☁️ **Cloud Deployment** — Hosting scalable applications using AWS and Vercel  
+
+---
+
+### 📊 GitHub Stats  
+
+<div align="center">
+  
+![Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true)  
+
+</div>
+
+---
+
+### 🧩 Activity  
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=qlsl1198&theme=tokyo-night)  
 ![Snake Animation](https://raw.githubusercontent.com/qlsl1198/qlsl1198/output/github-contribution-grid-snake.svg)
 
 ---
 
-## 🕓 2025 Timeline
+### 🕓 My 2025 Timeline  
 
 <details>
-  <summary>📆 Click to view</summary>
+  <summary>📆 Click to expand</summary>
   
-  - 🏆 **Hackathon 참가 (AI 기반 지역문제 해결)**  
-  - 💼 **Lucky B-Key 백엔드 개발 담당**  
-  - 🎓 **KMU 장학 챗봇 서비스 배포**  
-  - 🧩 **캡스톤 디자인 프로젝트 진행 중**
+  - 🏆 **Hackathon 참여 (AI 기반 지역사회 문제 해결)**  
+  - 💼 **Lucky B-Key 백엔드 시스템 개발**  
+  - 🎓 **KMU 장학 챗봇 완성 및 배포**  
+  - 🧩 **캡스톤 디자인 협업 플랫폼 개발 진행 중**
 </details>
 
 ---
 
-## 💬 Random Dev Quote
+### 💬 Random Dev Quote  
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ---
 
-## 🎧 Now Playing
+### 🧮 Visitor Counter  
 
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_id&cover_image=true&theme=novatorem)](https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_id)
+<div align="center">
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=qlsl1198)
+
+</div>
 
 ---
 
-## 🌐 Contact
+### 🌐 Connect with Me  
 
 📧 **Email:** qlsl1198@gmail.com  
 💼 **Portfolio:** [https://popol-seven.vercel.app/](https://popol-seven.vercel.app/)  
@@ -100,4 +92,11 @@ OpenAI GPT 기반으로 꿈 내용을 분석하고, 꿈 패턴 통계를 시각�
 
 ---
 
-⭐ *“Every line of code is a step toward becoming the developer I aspire to be.”*
+<div align="center">
+
+⭐ *“Coding is where creativity meets precision.”*  
+💫 *Thank you for visiting my profile!*
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)
+
+</div>
