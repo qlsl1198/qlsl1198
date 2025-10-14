@@ -1,25 +1,39 @@
 name: Generate Snake Animation
 
+# 자동 실행과 수동 실행 둘 다 가능
 on:
-  schedule: # 매일 새벽 자동 실행
-    - cron: "0 0 * * *"
-  workflow_dispatch: # 수동 실행도 가능
+  schedule:
+    - cron: "0 0 * * *"  # 매일 새벽 0시 자동 실행
+  workflow_dispatch:     # 수동 실행 가능
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      # 1️⃣ 코드 체크아웃
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      # 2️⃣ Snake animation 생성
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: qlsl1198
+          github_user_name: qlsl1198   # <-- 본인 GitHub 아이디
           outputs: dist/snake.svg
+
+      # 3️⃣ Git 설정
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 4️⃣ output 브랜치로 push
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
+        run: |
+          git checkout -B output
+          git add dist/snake.svg
+          git commit -m "Update Snake Animation" || echo "No changes to commit"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
