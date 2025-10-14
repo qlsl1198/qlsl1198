@@ -101,7 +101,7 @@
 
 <div align="center">
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=qlsl1198)
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/qlsl1198&count_bg=%2368D391&title_bg=%230D1117&icon=github.svg&icon_color=%23FFFFFF&title=Profile+Views&edge_flat=false)
 
 </div>
 
