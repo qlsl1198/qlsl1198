@@ -1,0 +1,25 @@
+name: Generate Snake Animation
+
+on:
+  schedule: # 매일 새벽 자동 실행
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 수동 실행도 가능
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: qlsl1198
+          outputs: dist/snake.svg
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
