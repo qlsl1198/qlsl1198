@@ -20,14 +20,14 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: qlsl1198   # <-- 본인 GitHub 아이디
+          github_user_name: qlsl1198
           outputs: dist/snake.svg
 
       # 3️⃣ Deploy to output branch using PAT
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}  # 생성한 Personal Access Token
+          github_token: ${{ secrets.GH_PAT }}  # 새로 발급한 PAT 사용
           publish_dir: ./dist
           publish_branch: output
           force_orphan: true
