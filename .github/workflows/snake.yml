@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 코드 체크아웃 (전체 히스토리 포함)
+      # 1️⃣ 코드 체크아웃
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -23,30 +23,11 @@ jobs:
           github_user_name: qlsl1198   # <-- 본인 GitHub 아이디
           outputs: dist/snake.svg
 
-      # 3️⃣ Git 설정
-      - name: Setup Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 4️⃣ output 브랜치 준비
-      - name: Prepare output branch
-        run: |
-          git fetch origin output || echo "output branch does not exist"
-          git checkout -B output origin/output || git checkout -B output
-
-      # 5️⃣ Commit 변경사항 (없으면 skip)
-      - name: Commit changes
-        run: |
-          git add dist/snake.svg
-          if git diff-index --quiet HEAD; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update Snake Animation"
-          fi
-
-      # 6️⃣ Push
-      - name: Push to output branch
-        run: git push origin output --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # 3️⃣ Deploy to output branch
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
