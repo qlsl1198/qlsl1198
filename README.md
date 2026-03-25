@@ -41,7 +41,7 @@
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)  
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=&theme=dark&hide_border=true&mode=weekly)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=qlsl1198&theme=dark&hide_border=true&mode=weekly)](https://git.io/streak-stats)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true)
 
