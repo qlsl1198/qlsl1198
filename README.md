@@ -105,11 +105,17 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 <div align="center">
 
-![Subin's GitHub stats](https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+<img src="https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true" width="450"/>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true)
+<br/><br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=qlsl1198&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true" width="380"/>
+
+<br/><br/>
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=qlsl1198&theme=tokyonight&hide_border=true&mode=weekly" width="450"/>
+</a>
 
 </div>
 
@@ -119,7 +125,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=qlsl1198&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=70a5fd&line=38bdae&point=ffffff)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=qlsl1198&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=70a5fd&line=38bdae&point=ffffff"/>
 
 </div>
 
