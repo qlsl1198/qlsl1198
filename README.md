@@ -158,7 +158,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 <div align="center">
 
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/lines/qlsl1198?pet-id=1" width="1000" height="120"/>
+  <img src="https://render.gitanimals.org/farms/qlsl1198" width="1000" height="120"/>
 </a>
 
 
