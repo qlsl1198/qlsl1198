@@ -157,6 +157,10 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 <div align="center">
 
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/lines/{username}?pet-id=1" width="1000" height="120"/>
+</a>
+
 ### ⭐ Thank you for visiting my profile!
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer)
