@@ -133,12 +133,13 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 ## 🏆 Certifications
 
-- ADsP
-- SQLD
-- DIAT Gold Master
-- Computer Specialist in Spreadsheet & Database Level 2
-- COS Pro Level 2 Python
-- Engineer Information Processing — Written Exam Passed
+- Engineer Information Processing (정보처리기사)
+- SQLD (SQL 개발자)
+- ADsP (데이터분석 준전문가)
+- OPIc Intermediate Mid 2 (오픽 IM2)
+- Computer Specialist in Spreadsheet & Database Level 2 (컴퓨터활용능력 2급)
+- COS Pro Level 2 Python (COS Pro 2급 Python)
+- DIAT Gold Master (디지털정보활용능력 골드마스터)
 
 ---
 
