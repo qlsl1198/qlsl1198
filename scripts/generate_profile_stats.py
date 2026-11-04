@@ -47,27 +47,38 @@ def api(url, payload=None):
 
 
 def svg_start(w, h, title):
+    """Transparent cards: no large framed backgrounds or four boxed metrics."""
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" role="img" '
         f'aria-label="{escape(title, quote=True)}" viewBox="0 0 {w} {h}" '
         f'width="{w}" height="{h}">'
-        '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
-        '<stop offset="0" stop-color="#0f2027"/>'
-        '<stop offset="0.55" stop-color="#203a43"/>'
-        '<stop offset="1" stop-color="#192b42"/></linearGradient></defs>'
-        f'<rect x="1" y="1" rx="20" width="{w-2}" height="{h-2}" '
-        'fill="url(#bg)" stroke="#34526b" stroke-width="2"/>'
+        '<style>'
+        '.primary{fill:#24292f}.secondary{fill:#57606a}'
+        '.accent{fill:#087f72}.track{fill:#dfe5ec}.empty{fill:#dce4eb}'
+        '@media(prefers-color-scheme:dark){'
+        '.primary{fill:#e6edf3}.secondary{fill:#8b949e}'
+        '.accent{fill:#56d5b2}.track{fill:#263443}.empty{fill:#263443}'
+        '}</style>'
     )
 
 
 def rect(x, y, w, h, fill, radius=0, opacity=1):
+    special = {"#dfe5ec": "track", "#dce4eb": "empty"}
+    cls = f' class="{special[fill]}"' if fill in special else ''
     return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" '
-            f'rx="{radius}" fill="{fill}" opacity="{opacity}"/>')
+            f'rx="{radius}" fill="{fill}"{cls} opacity="{opacity}"/>')
 
 
-def text(x, y, value, size=16, color="#dbeafe", weight=400, anchor="start"):
+def text(x, y, value, size=16, color="primary", weight=400, anchor="start"):
+    # Use adaptive fill colors that remain legible in GitHub light/dark mode.
+    aliases = {
+        "#ffffff": "primary", "#cbdcf2": "primary",
+        "#9cbad3": "secondary", "#9adfd2": "accent",
+    }
+    key = aliases.get(color, color)
+    fg = f'class="{key}"' if key in ("primary", "secondary", "accent") else f'fill="{key}"'
     return (f'<text x="{x}" y="{y}" font-family="Arial, Helvetica, sans-serif" '
-            f'font-size="{size}" font-weight="{weight}" fill="{color}" '
+            f'font-size="{size}" font-weight="{weight}" {fg} '
             f'text-anchor="{anchor}">{escape(str(value))}</text>')
 
 
@@ -150,19 +161,19 @@ def make_stats(repos, followers, calendar):
         ("TOTAL STARS", stars),
         ("CONTRIBUTIONS / 1Y", total),
     ]
-    body = text(32, 48, "GitHub Overview", 26, "#ffffff", 700)
-    body += text(32, 74, "Official GitHub API data - refreshed daily", 13, "#9cbad3")
+    body = text(25, 43, "GitHub Overview", 25, "primary", 700)
+    body += text(25, 69, "Official GitHub API data · refreshed daily", 13, "secondary")
     for i, (label, value) in enumerate(metrics):
-        x = 32 + i * 216
-        body += rect(x, 102, 197, 89, "#172e40", 13)
-        body += text(x + 16, 131, label, 12, "#9cbad3", 700)
-        body += text(x + 16, 175, f"{value:,}", 30, "#ffffff", 700)
-    body += text(
-        33, 217,
-        f"{followers:,} followers  |  Current contribution streak: {streak} day(s)",
-        14, "#9adfd2",
-    )
-    save("stats.svg", body, 900, 238)
+        x = 25 + i * 217
+        body += text(x + 5, 120, f"{value:,}", 34, "primary", 700)
+        body += text(x + 5, 146, label, 12, "secondary", 600)
+        if i < len(metrics) - 1:
+            xx = x + 204
+            body += f'<line x1="{xx}" y1="95" x2="{xx}" y2="155" stroke="#a5b4c3" stroke-width="1" opacity=".45"/>'
+    body += text(30, 191,
+                 f"{followers:,} followers  ·  Current contribution streak: {streak} day(s)",
+                 14, "accent")
+    save("stats.svg", body, 900, 213)
 
 
 def make_languages(repos):
@@ -185,44 +196,36 @@ def make_languages(repos):
         raise RuntimeError("No language data returned: refusing to overwrite the previous card")
     items = byte_counts.most_common(6)
     total = sum(byte_counts.values())
-    body = text(32, 48, "Most Used Languages", 26, "#ffffff", 700)
-    body += text(
-        32, 73, "Repository code bytes by language (public, non-fork projects)",
-        13, "#9cbad3",
-    )
+    body = text(25, 43, "Most Used Languages", 25, "primary", 700)
+    body += text(25, 66, "Public, non-fork repositories · measured by code bytes", 13, "secondary")
     for i, (language, size) in enumerate(items):
-        y = 103 + i * 37
+        y = 94 + i * 36
         pct = size / total * 100
-        body += text(32, y + 12, language, 14, "#ffffff", 600)
-        body += rect(210, y, 582, 14, "#273e52", 7)
-        body += rect(210, y, round(582 * pct / 100, 2), 14,
+        body += text(28, y + 12, language, 14, "primary", 600)
+        body += rect(210, y, 575, 13, "#dfe5ec", 7)
+        body += rect(210, y, round(575 * pct / 100, 2), 13,
                      COLORS.get(language, "#8bb5ea"), 7)
-        body += text(857, y + 12, f"{pct:.1f}%", 14, "#cbdcf2", 600, "end")
-    body += text(32, 352, "Excludes forks and archived repositories", 12, "#9cbad3")
-    save("languages.svg", body, 900, 371)
+        body += text(859, y + 12, f"{pct:.1f}%", 14, "secondary", 600, "end")
+    body += text(25, 335, "Statistics describe repository files, not professional proficiency.", 12, "secondary")
+    save("languages.svg", body, 900, 352)
 
 
 def make_contributions(calendar):
     weeks = calendar["weeks"][-52:]
-    body = text(32, 45, "Contribution Activity", 26, "#ffffff", 700)
-    body += text(
-        32, 72,
-        f"{calendar['totalContributions']:,} contributions in the last 12 months",
-        14, "#9cbad3",
-    )
-    intensity = ["#1a3343", "#1b665e", "#279c89", "#38bdae", "#83e5cb"]
+    body = text(25, 43, "Contribution Activity", 25, "primary", 700)
+    body += text(25, 67, f"{calendar['totalContributions']:,} contributions in the last 12 months", 13, "secondary")
+    intensity = ["#dce4eb", "#a2dacd", "#6cc9b7", "#2eab98", "#087f72"]
     for i, week in enumerate(weeks):
         for j, day in enumerate(week["contributionDays"]):
             count = day["contributionCount"]
             level = 0 if count == 0 else (1 if count < 3 else
                         2 if count < 6 else 3 if count < 12 else 4)
-            body += rect(32 + 16 * i, 95 + 16 * j, 12, 12, intensity[level], 3)
-    body += text(32, 223, "Less", 12, "#9cbad3")
+            body += rect(25 + 16 * i, 89 + 16 * j, 12, 12, intensity[level], 3)
+    body += text(25, 215, "Less", 12, "secondary")
     for k, color in enumerate(intensity):
-        body += rect(76 + 17 * k, 212, 12, 12, color, 2)
-    body += text(171, 223, "More", 12, "#9cbad3")
-    body += text(865, 223, "GitHub contributions calendar", 12, "#9cbad3", anchor="end")
-    save("contributions.svg", body, 900, 249)
+        body += rect(68 + 17 * k, 204, 12, 12, color, 2)
+    body += text(163, 215, "More", 12, "secondary")
+    save("contributions.svg", body, 900, 232)
 
 
 def main():
