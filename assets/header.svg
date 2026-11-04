@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1200 270" width="1200" height="270" aria-label="Kim Subin profile header"><defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2027"/><stop offset="0.5" stop-color="#203a43"/><stop offset="1" stop-color="#2c5364"/></linearGradient></defs>
+<rect width="1200" height="270" fill="url(#grad)"/>
+<circle cx="1070" cy="55" r="140" fill="#38bdae" opacity="0.07"/>
+<circle cx="120" cy="220" r="175" fill="#70a5fd" opacity="0.08"/>
+<text x="600" y="115" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Kim Subin</text>
+<text x="600" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#c0e0e6">Backend  |  Full-Stack  |  AI-Integrated Web Services</text>
+<path d="M0 211 C220 175 355 265 570 233 C780 199 915 173 1200 232 L1200 270 L0 270Z" fill="#123240" opacity="0.65"/>
+<path d="M0 239 C250 203 410 284 650 241 C870 202 1020 239 1200 252 L1200 270 L0 270Z" fill="#2c5364" opacity="0.86"/>
+</svg>

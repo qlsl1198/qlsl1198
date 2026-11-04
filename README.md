@@ -1,7 +1,13 @@
-<!-- 🌈 Header -->
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Kim%20Subin&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20Full-Stack%20%7C%20AI-Integrated%20Web%20Services&descSize=18&descAlignY=62&descAlign=50)
+<img src="./assets/header.svg" alt="Kim Subin — Backend, Full-Stack & AI-Integrated Web Services" width="100%" />
+
+### Backend Developer · Full-Stack Projects · AI-Integrated Services
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F2027?style=for-the-badge&logo=vercel&logoColor=white)](https://popol-seven.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-qlsl1198-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qlsl1198)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qlsl1198@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%88%98%EB%B9%88-%EA%B9%80-a55a44372/)
 
 </div>
 
@@ -9,36 +15,39 @@
 
 ## 👋 About Me
 
-Hi, I'm **Kim Subin**, a Computer Science student at **Keimyung University**.
+Hi, I'm **Kim Subin**, a Computer Science student at **Keimyung University** and an aspiring **Backend / Full-Stack Developer**.
 
-I am an aspiring **Backend / Full-Stack Developer** interested in building practical web services with AI-integrated features.  
-I have experience developing projects using **Spring Boot, React, Next.js, Flask, PostgreSQL, and AWS**, and I enjoy turning ideas into real, usable services.
+I build practical web applications with **Spring Boot, React, Next.js, PostgreSQL, and AWS**, with a focus on reliable APIs, real-time collaboration, and useful AI features.
 
-I am especially interested in **real-time collaboration systems, workspace-based service architecture, database design, API development, and AI-powered web applications**.
-
----
+- **Backend:** REST APIs, database modeling, workspace-based services, WebSocket / STOMP
+- **Full-stack:** React / Next.js frontends connected to Spring Boot and Python backends
+- **Cloud & AI:** Docker, AWS, Vercel, and LLM-integrated applications
 
 ## 🧠 Tech Stack
 
-### Backend
+**Backend**
+
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-### Frontend
+**Frontend**
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-### Database & Infra
+**Database & Infrastructure**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### Tools
+**Tools**
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -46,125 +55,88 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 ---
 
-## 🚀 Main Projects
+## 🚀 Selected Projects
 
-### 🧩 ONit — Workspace Collaboration Platform
-> A workspace-based collaboration platform with real-time communication and idea management features.
+### 🧩 ONit — Real-Time Workspace Collaboration Platform
 
-- Developed backend features using **Spring Boot, PostgreSQL, WebSocket/STOMP, and AWS**
-- Implemented real-time chat functionality for workspace-based collaboration
-- Designed APIs for creating, updating, moving, and deleting idea boxes on an infinite canvas
-- Built coordinate-saving logic for canvas items to support visual collaboration
-- Participated in service structure design for workspace-based team collaboration
+Workspace-based collaboration platform with an infinite canvas, chat, and idea management.
 
----
+- Developed Spring Boot backend features including workspace APIs and real-time messaging using **WebSocket / STOMP**.
+- Designed APIs for creating, editing, moving, and deleting idea boxes with canvas coordinate persistence.
+- Worked with **PostgreSQL**, an API gateway, and service-oriented backend design.
 
-### 🎓 KMU Scholarship Chatbot
-> A GPT-powered chatbot that helps students find scholarship information more easily.
+**Stack:** Java · Spring Boot · PostgreSQL · WebSocket / STOMP · AWS
 
-- Developed with **Python, Flask, OpenAI API, and JSON**
-- Structured scholarship data for chatbot-based responses
-- Designed response logic to provide relevant scholarship information based on user questions
-- Focused on improving accessibility to scholarship-related information for students
-
----
+🔗 **[Backend & MSA repository](https://github.com/qlsl1198/capstone_msa)**
 
 ### 📚 EduPulse — AI Tutor Learning Platform
-> A learning platform that provides AI tutor features based on course content and learning flow.
 
-- Developed with **Next.js, TypeScript, Prisma, and PostgreSQL**
-- Designed the basic structure of an online lecture platform
-- Implemented AI tutor features to support personalized learning
-- Focused on building an education service that connects content delivery and AI assistance
+Education web service integrating course content, lesson management, and an AI tutor.
 
----
+- Built with **Next.js, TypeScript, Prisma, and PostgreSQL**.
+- Implemented course and lesson management, knowledge-base features, and AI-assisted learning.
+- Set up deployment documentation for **Vercel** and PostgreSQL.
+
+**Stack:** Next.js · TypeScript · Prisma · PostgreSQL
+
+🔗 **[Source repository](https://github.com/qlsl1198/vibe-contest)**
+
+### 🎓 KMU Scholarship Chatbot
+
+A GPT-powered chatbot designed to help students find scholarship information.
+
+- Organized scholarship data for question-based retrieval.
+- Implemented a Flask-based chatbot workflow integrating an LLM API.
+- Focused on making scholarship information easier for students to access.
+
+**Stack:** Python · Flask · OpenAI API · JSON
 
 ### 🎬 Movie Explorer
-> A movie information web application for exploring movie data through a simple UI.
 
-- Built with **JavaScript, HTML, and CSS**
-- Implemented movie list and detail page UI
-- Practiced API data handling and dynamic rendering
-- Improved understanding of frontend structure and user interface flow
+Movie information web application using **TMDB API** data.
 
----
+- Implemented responsive movie browsing, filtering, and detail views.
+- Handled dynamic API data rendering with JavaScript.
+- Built a simple Node.js / Express backend for API integration.
 
-## 📌 Currently Interested In
+**Stack:** JavaScript · HTML · CSS · Node.js · Express · TMDB API
 
-- Backend Development with Spring Boot
-- REST API Design and Database Modeling
-- Real-time Communication with WebSocket / STOMP
-- AI-integrated Web Services
-- Cloud Deployment with AWS and Vercel
-- Collaborative Workspace Systems
-- Practical Full-Stack Service Development
+🔗 **[Source repository](https://github.com/qlsl1198/movie-explorer)**
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&hide_border=true" width="450"/>
+<img src="./assets/stats.svg" alt="GitHub public repository statistics" width="850" />
 
-<br/><br/>
+<img src="./assets/languages.svg" alt="Most used languages across public non-fork repositories" width="850" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qlsl1198&layout=compact&theme=tokyonight&hide_border=true" width="380"/>
-
-<br/><br/>
-
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=qlsl1198&theme=tokyonight&hide_border=true&mode=weekly" width="450"/>
-</a>
+<img src="./assets/contributions.svg" alt="GitHub contribution activity for the past year" width="850" />
 
 </div>
 
----
-
-## 🧩 Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=qlsl1198&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=70a5fd&line=38bdae&point=ffffff"/>
-
-</div>
+<sub>Statistics are generated from GitHub's official API by a [daily GitHub Actions workflow](./.github/workflows/profile-stats.yml) and stored as local SVGs. Repository language percentages reflect source-file bytes, not experience level. Private contributions may not be included.</sub>
 
 ---
 
 ## 🏆 Certifications
 
-- Engineer Information Processing (정보처리기사)
-- SQLD (SQL 개발자)
-- ADsP (데이터분석 준전문가)
-- OPIc Intermediate Mid 2 (오픽 IM2)
-- Computer Specialist in Spreadsheet & Database Level 2 (컴퓨터활용능력 2급)
-- COS Pro Level 2 Python (COS Pro 2급 Python)
-- DIAT Gold Master (디지털정보활용능력 골드마스터)
+- **Engineer Information Processing** (정보처리기사)
+- **SQL Developer (SQLD)** · **Advanced Data Analytics Semi-Professional (ADsP)**
+- **OPIc IM2** (English speaking)
+- **Computer Specialist in Spreadsheet & Database, Level 2** (컴퓨터활용능력 2급)
+- **COS Pro Level 2 — Python** · **DIAT Gold Master**
 
----
+## 🌱 Currently Exploring
 
-## 📫 Contact
+Backend architecture · REST API & database design · Real-time systems · AI-integrated services · Cloud deployment
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://popol-seven.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-qlsl1198-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qlsl1198)
-[![Email](https://img.shields.io/badge/Email-qlsl1198%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:qlsl1198@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kim%20Subin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%88%98%EB%B9%88-%EA%B9%80-a55a44372/)
+[![Gitanimals](./assets/gitanimals-link.svg)](https://render.gitanimals.org/farms/qlsl1198)
 
-</div>
-
----
-
-<div align="center">
-
-<a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/qlsl1198" width="500" height="280"/>
-</a>
-
-
-### ⭐ Thank you for visiting my profile!
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer)
+<img src="./assets/footer.svg" alt="Thanks for visiting" width="100%" />
 
 </div>

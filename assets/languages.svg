@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 900 371" width="900" height="371" aria-label="Most Used Languages"><defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2027"/><stop offset="0.5" stop-color="#203a43"/><stop offset="1" stop-color="#2c5364"/></linearGradient></defs>
+    <rect x="1" y="1" width="898" height="369" rx="20" fill="url(#grad)" stroke="#34526b" stroke-width="2"/>
+    <text x="38" y="60" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Most Used Languages</text>
+    <text x="38" y="107" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#b8d7e8">Will populate after the first successful GitHub Actions run.</text>
+    <text x="38" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#8bb4ca">Source: GitHub API  |  Automatic daily refresh</text>
+    </svg>
