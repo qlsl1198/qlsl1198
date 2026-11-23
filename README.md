@@ -140,8 +140,8 @@ I am especially interested in **real-time collaboration systems, workspace-based
 
 <div align="center">
 
-<a href="https://solved.ac/YOUR_BOJ_ID">
-  <img src="https://mazassumnida.wtf/api/v2/generate_badge?handle=YOUR_BOJ_ID" alt="Solved.ac Profile" height="180" />
+<a href="https://solved.ac/qlsl1198">
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?handle=qlsl1198" alt="Solved.ac Profile" height="180" />
 </a>
 
 </div>
