@@ -1,4 +1,6 @@
+
 <!-- Kim Subin / GitHub profile -->
+
 <div align="center">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Kim%20Subin&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20Full-Stack%20%7C%20AI-Integrated%20Web%20Services&descSize=18&descAlignY=62&descAlign=50)
@@ -21,24 +23,28 @@ I am especially interested in **real-time collaboration systems, workspace-based
 ## 🧠 Tech Stack
 
 ### Backend
+
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Frontend
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 ### Database & Infra
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Tools
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -49,6 +55,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 ## 🚀 Main Projects
 
 ### 🧩 ONit — Workspace Collaboration Platform
+
 > A workspace-based collaboration platform with real-time communication and idea management features.
 
 - Developed backend features using **Spring Boot, PostgreSQL, WebSocket/STOMP, and AWS**.
@@ -61,6 +68,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 ---
 
 ### 🎓 KMU Scholarship Chatbot
+
 > A GPT-powered chatbot that helps students find scholarship information more easily.
 
 - Developed with **Python, Flask, OpenAI API, and JSON**.
@@ -70,6 +78,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 ---
 
 ### 📚 EduPulse — AI Tutor Learning Platform
+
 > A learning platform that provides AI tutor features based on course content and learning flow.
 
 - Developed with **Next.js, TypeScript, Prisma, and PostgreSQL**.
@@ -81,6 +90,7 @@ I am especially interested in **real-time collaboration systems, workspace-based
 ---
 
 ### 🎬 Movie Explorer
+
 > A movie information web application for exploring movie data through a simple UI.
 
 - Built with **JavaScript, HTML, CSS, Node.js, and Express**.
@@ -111,6 +121,42 @@ I am especially interested in **real-time collaboration systems, workspace-based
 <img src="./assets/languages.svg" alt="Programming languages" width="850" />
 
 </div>
+
+---
+
+## 🏅 GitHub Rank
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=qlsl1198&show_icons=true&theme=tokyonight&rank_icon=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Rank" height="190" />
+
+</div>
+
+<sub>GitHub rank is calculated by a third-party service based on GitHub activity and is not an official GitHub ranking.</sub>
+
+---
+
+## 💻 Algorithm & Problem Solving
+
+<div align="center">
+
+<a href="https://solved.ac/YOUR_BOJ_ID">
+  <img src="https://mazassumnida.wtf/api/v2/generate_badge?handle=YOUR_BOJ_ID" alt="Solved.ac Profile" height="180" />
+</a>
+
+</div>
+
+<div align="center">
+
+<a href="https://solved.ac/YOUR_BOJ_ID">
+  <img src="https://mazassumnida.wtf/api/mini/generate_badge?handle=YOUR_BOJ_ID" alt="Solved.ac Tier" />
+</a>
+
+</div>
+
+<sub>Baekjoon Online Judge / solved.ac — Algorithm problem-solving profile.</sub>
+
+---
 
 ## 🧩 Activity
 
